@@ -1,0 +1,4 @@
+driver=oracle.jdbc.driver.OracleDriver
+DBurl=jdbc:oracle:thin:@localhost:1521:BENCH
+user=root
+password=hp

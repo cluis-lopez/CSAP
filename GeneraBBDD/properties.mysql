@@ -1,0 +1,6 @@
+driver=com.mysql.jdbc.Driver
+DBurl=jdbc:mysql://localhost:3306/CBS
+user=root
+password=hp
+log=logs/Genera.log
+debug=N

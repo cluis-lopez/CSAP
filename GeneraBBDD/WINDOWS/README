@@ -1,0 +1,22 @@
+Para generar la BBDD en Windows:
+
+- Llevarse al servidor Oracle/Windows los ficheros *.sql.
+- Ejecutar en el servidor Windows sqlplus (irse al directorio de los binarios de Oracle)
+- Desde sqlplus crear el usuario:
+
+	# grant all privileges to root identified by hp;
+- COnectarse como el nuevo usuario:
+
+	# connect root/hp
+
+- Ejecutar el primer script:
+
+	#@\....\create.sql
+
+- Desde un servidor Unix o Java (el inyector de carga) ejecutar el script para generar los datos:
+
+	# ./createwin_java	
+
+- Volver al servidor Windows y ejecutar el script final para crear los indices:
+
+	#@\....\createwin_indices.sql

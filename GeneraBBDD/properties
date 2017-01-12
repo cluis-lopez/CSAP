@@ -1,0 +1,4 @@
+driver=oracle.jdbc.driver.OracleDriver
+DBurl=jdbc:oracle:thin:@10.20.0.54:1521:CSAP
+user=root
+password=hp
