@@ -1,6 +1,0 @@
-driver=com.mysql.jdbc.Driver
-DBurl=jdbc:mysql://zape.esm.cpqcorp.net:3306/CBS
-user=root
-password=hp
-log=logs/MySQL.log
-debug=Y
