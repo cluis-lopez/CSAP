@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/j2ee/dtds/web-app_2_3.dtd">
+
+<web-app>
+	<display-name>Clopez's Benchmark Suite</display-name>
+	<description>Version sin pool de conexiones a la BBDD</description>
+
+	<servlet>
+		<servlet-name>Select</servlet-name>
+		<servlet-class>Select</servlet-class>
+	</servlet>	
+
+	<servlet>
+		<servlet-name>Escoge</servlet-name>
+		<servlet-class>Escoge</servlet-class>
+	</servlet>	
+		
+	<servlet>
+		<servlet-name>Pedidos</servlet-name>
+		<servlet-class>Pedidos</servlet-class>
+	</servlet>	
+
+	<servlet>
+		<servlet-name>Actualizar</servlet-name>
+		<servlet-class>Actualizar</servlet-class>
+	</servlet>	
+
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<servlet-class>index</servlet-class>
+	</servlet>	
+
+	<servlet-mapping>
+		<servlet-name>Escoge</servlet-name>
+		<url-pattern>/Escoge</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Pedidos</servlet-name>
+		<url-pattern>/Pedidos</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Actualizar</servlet-name>
+		<url-pattern>/Actualizar</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>index</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+	<resource-ref>
+		<description>DB Pool</description>
+      	<res-ref-name>jdbc/CSAP</res-ref-name>
+      	<res-type>javax.sql.DataSource</res-type>
+      	<res-auth>Container</res-auth>
+	</resource-ref>
+</web-app>

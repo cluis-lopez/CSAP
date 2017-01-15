@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+   <Resource name="jdbc/CSAP" auth="Container"
+       type="javax.sql.DataSource" 
+       username="root" password="hp"
+       driverClassName="com.mysql.jdbc.Driver"
+       url="jdbc:mysql://10.20.0.70:3306/CBS" 
+       maxActive="8"    /> 
+</Context> 

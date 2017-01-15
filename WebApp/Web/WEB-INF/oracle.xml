@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+   <Resource name="jdbc/CSAP" auth="Container"
+       type="javax.sql.DataSource" 
+       username="root" password="hp"
+       driverClassName="oracle.jdbc.driver.OracleDriver"
+       url="jdbc:oracle:thin:@10.20.0.53:1521:CSAP" 
+       maxActive="8"    /> 
+</Context> 

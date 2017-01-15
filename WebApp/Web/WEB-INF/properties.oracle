@@ -1,0 +1,8 @@
+driver=oracle.jdbc.driver.OracleDriver
+DBurl=jdbc:oracle:thin:@10.20.0.53:1521:CSAP
+user=root
+password=hp
+pool=y
+JNDI_Name=jdbc/CSAP
+CONTEXT_INIT=weblogic.jndi.WLInitialContextFactory
+CONTEXT_URL=t3://localhost:7001

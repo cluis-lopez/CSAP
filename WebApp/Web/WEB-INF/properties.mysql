@@ -1,0 +1,8 @@
+driver=com.mysql.jdbc.Driver
+DBurl=jdbc:mysql://localhost:3306/CBS
+user=root
+password=hp
+pool=N
+JNDI_Name=jdbc/CSAP
+CONTEXT_INIT=weblogic.jndi.WLInitialContextFactory
+CONTEXT_URL=t3://localhost:7001
