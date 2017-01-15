@@ -1,2 +1,0 @@
-CONTEXT_INIT=weblogic.jndi.WLInitialContextFactory
-CONTEXT_URL=t3://localhost:7001
