@@ -1,6 +1,6 @@
 driver=com.mysql.jdbc.Driver
-DBurl=jdbc:mysql://localhost:3306/CBS
-user=root
-password=hp
-log=logs/MySQL.log
+DBurl=jdbc:mysql://XXXXXX.azure.com:3306/CBS?relaxAutoCommit=true
+user=YYYY@ZZZZZ
+password=WWWWW
+log=logs/Stress.log
 debug=Y
